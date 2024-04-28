@@ -1,2 +1,5 @@
-package parsa.springframework.spring6di.services;public class GreetingService {
+package parsa.springframework.spring6di.services;
+
+public interface GreetingService {
+    String sayGreeting();
 }
